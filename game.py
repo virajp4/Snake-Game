@@ -87,7 +87,7 @@ cell_number = 20
 window = pg.display.set_mode((cell_number*cell_size, cell_number*cell_size))
 pg.display.set_caption("Snake")
 clock = pg.time.Clock()
-apple = pg.image.load('E:\Coding\Projects\Jetha\'s Jalebi\\apple.png').convert_alpha()
+apple = pg.image.load('apple.png').convert_alpha()
 game_font = pg.font.Font(None,35)
 
 SCREEN_UPDATE = pg.USEREVENT
